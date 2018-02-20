@@ -4,7 +4,7 @@
  class Ma < Formula
   desc ""
   homepage ""
-  url "https://github.com/NishidaYuhei/ma-mi.git"
+  url "https://github.com/NishidaYuhei/mami.git"
    # depends_on "cmake" => :build
    def install
     # ENV.deparallelize  # if your formula fails when building in parallel
