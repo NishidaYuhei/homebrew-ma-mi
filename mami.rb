@@ -2,9 +2,10 @@
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
  class Mami < Formula
+  version "0.0.2"
   desc ""
   homepage ""
-  url "https://github.com/NishidaYuhei/mami/releases/download/0.0.1/mami"
+  url "https://github.com/NishidaYuhei/mami/releases/download/#{version}/mami"
    # depends_on "cmake" => :build
    def install
     # ENV.deparallelize  # if your formula fails when building in parallel
