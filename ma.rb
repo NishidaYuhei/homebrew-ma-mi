@@ -4,8 +4,7 @@
  class Ma < Formula
   desc ""
   homepage ""
-  url "https://github.com/NishidaYuhei/ma-mi"
-  sha256 "cda691f8b28378a8a457843ef0434614af90ee0e0ca9e9c0546ddaa5ddb660c7"
+  url "https://github.com/NishidaYuhei/ma-mi.git"
    # depends_on "cmake" => :build
    def install
     # ENV.deparallelize  # if your formula fails when building in parallel
